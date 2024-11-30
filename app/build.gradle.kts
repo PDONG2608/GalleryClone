@@ -103,12 +103,12 @@ android {
         compose = true
         buildConfig = true
     }
-    composeCompiler {
-        featureFlags = setOf(
-            ComposeFeatureFlag.OptimizeNonSkippingGroups
-        )
-        includeSourceInformation = true
-    }
+//    composeCompiler {
+//        featureFlags = setOf(
+//            ComposeFeatureFlag.OptimizeNonSkippingGroups
+//        )
+//        includeSourceInformation
+//    }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"

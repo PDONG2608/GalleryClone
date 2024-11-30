@@ -30,7 +30,7 @@ android {
     }
 
     composeCompiler {
-        includeSourceInformation = true
+        includeSourceInformation
     }
 
     buildFeatures {
